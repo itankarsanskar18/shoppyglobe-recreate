@@ -1,16 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# ShoppyGlobe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a simple React e-commerce web application built with Redux for state management and Tailwind CSS for styling.  
+It fetches product data from a public API and allows users to add items to a shopping cart, update quantities, and remove items.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product listing with images, titles, and prices  
+- Add products to cart  
+- Update quantity or remove products from cart  
+- Persistent cart state with Redux Toolkit  
+- Responsive UI with Tailwind CSS  
+- React Router for page navigation  
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# shoppyglobe-recreate
->>>>>>> 0ec0e650410c0e9aec99ef9071c8dacd59cbb65f
+1. Clone the repository:
+
+```bash
+git clone https://github.com/itankarsanskar18/shoppyglobe-recreate.git
+cd shoppyglobe-recreate
